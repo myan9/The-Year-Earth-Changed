@@ -3,8 +3,8 @@ COVID-19 pandemic has substantially affected human society, including health car
 
 
 <figure>
-<img src="doc/himalayas.jpeg" alt="himalayas before and during lockdown" style="width:100%">
-<figcaption align = "center"><b>Fig.1 The Himalayas before and after lockdown in Jalandhar, India</b></figcaption>
+<img src="himalayas.jpeg" alt="himalayas before and during lockdown" style="width:100%">
+<figcaption align = "center"><b>Fig.1 The Himalayas before and after lockdown in Jalandhar, India(</b></figcaption>
 </figure>
 
 Inspired by the documentary, we studied whether the claims are backed by data. Our study has two parts: firstly we analyzed air quality in India and California, secondly we studied CO2 emissions in China, United States and India. In evaluations, we found drops of both the air pollution and CO2 emission during the COVID lockdown. We believe that understanding how our environment was affected by COVID-19 provides important insights on healthcare and pollution control.
@@ -16,7 +16,7 @@ Among all the Indian cities in the dataset, we focused on a few cities with poor
 We also listed the data of all types of pollution to test the stableness of data distribution. Shown in the following graph, we observed seasonal effects on  PM 2.5 and PM 10. The pollution level is higher in winter than summer. This pattern has continued to this day, so we can assume that it may not change during the lockdown period. 
 
 <figure>
-<img src="doc/india-data-distribution.png" alt="india data distribution" style="width:100%">
+<img src="india-data-distribution.png" alt="india data distribution" style="width:100%">
 <figcaption align = "center"><b>Fig.2 india data distribution</b></figcaption>
 </figure>
 
@@ -26,12 +26,12 @@ The average AQI of California is about 95% better than India, so our study can r
 In figure below, two black vertical lines in the left and right image were used to denote the first phase of lockdown in India and California and the variation of various pollutant levels are from Jan 2019 to Jul 2020. Compared with the AQI value of California, all the above Indian cities have a dangerously high level of pollution. After Mar 25 2020, we observed a clear decline of AQI value in all the cities under lockdown. 
 
 <figure>
-<img src="doc/AQI-value-India.png" alt="AQI value before and during lockdown in India" style="width:100%">
+<img src="AQI-value-India.png" alt="AQI value before and during lockdown in India" style="width:100%">
 <figcaption align = "center"><b>Fig.3 AQI values from 2019-2020 in India</b></figcaption>
 </figure>
 
 <figure>
-<img src="doc/AQI-value-california.png" alt="AAQI-value-california" style="width:100%">
+<img src="AQI-value-california.png" alt="AAQI-value-california" style="width:100%">
 <figcaption align = "center"><b>Fig.4 AQI values from 2019-2021 in California</b></figcaption>
 </figure>
 
@@ -46,14 +46,14 @@ First, we analyzed the emission change in each country’s lockdown period. Indi
 Then, we calculated statistics for the emissions before and during the lockdown period in 2019 and 2020 and reported both absolute differences and percentage change. Figure below illustrates the co2 emissions before the lockdown period in the two years.  Compared to 2019, the average emission in 2020 reduced 10% in China, 10% in India, and 5% in the U.S. 
 
 <figure>
-<img src="doc/pre-lockdown-co2.png" style="width:100%">
+<img src="pre-lockdown-co2.png" style="width:100%">
 <figcaption align = "center"><b>Fig.5 CO2 emissions from ground transportation and aviations during pre-lockdown period in 2019 and 2020</b></figcaption>
 </figure>
 
 However, as shown in figure 6, during the lockdown period,  more significant reductions were observed. The average co2  is reduced 34% in China, 38% in India, and 22% in the U.S. 
 
 <figure>
-<img src="doc/lockdown-co2.png" style="width:100%">
+<img src="lockdown-co2.png" style="width:100%">
 <figcaption align = "center"><b>Fig.6 CO2 emissions from ground transportation and aviations during lockdown period in 2019 and 2020</b></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ However, as shown in figure 6, during the lockdown period,  more significant red
 To analyze the long term impact of lockdown on Co2 emission, we also studied the trend of yearly emissions from 2014 to 2020. We acquired the historical yearly emission data through Climate Watch[4] from 2014 to 2018 and computed the sum of daily emissions in 2019 and 2020. Figure 7 shows the trend in those countries. We observed that China still increased the emission in 2020 but the growth is much slower than the previous years. And both India and U.S have a significant drop in 2020.
 
 <figure>
-<img src="doc/yearly-co2.png" style="width:100%">
+<img src="yearly-co2.png" style="width:100%">
 <figcaption align = "center"><b>Fig.7 Yearly CO2 emissions from 2014-2020 in China, U.S and India </b></figcaption>
 </figure>
 
@@ -72,12 +72,5 @@ Our research provides real-time measurements, which is the ground based quantifi
 Air pollution and CO2 emission have important health implications. Our analysis emphasizes the importance of continued enforcement of air quality and greenhouse gas emission to protect the public health and the planet earth. 
 In future work, we should study the causation of COVID-19 lockdown and environmental changes. We should also investigate the impact of weather and large-scale events on environmental changes to improve the accuracy of our analysis.
 
-## Reference
 
-[1]. Wikipedia contributors, “The year earth changed — Wikipedia, the free en- cyclopedia,” https://en.wikipedia.org/w/index.php?title=The Year Earth Changed&oldid=1065365563, 2022, [Online; accessed 17-February-2022]. 
 
-[2]. https://www.heraldscotland.com/news/19283486.lorraine-kelly-show-probed-photoshopping-himalayas-row-involving-david-attenborough-bbc-documentary/)
-
-[3]. "Carbon monitor." [Online]. Available: https://carbonmonitor.org/ 
-
-[4]. [Online]. Available: https://www.climatewatchdata.org/ 
