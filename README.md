@@ -81,3 +81,7 @@ In future work, we should study the causation of COVID-19 lockdown and environme
 [3]. "Carbon monitor." [Online]. Available: https://carbonmonitor.org/ 
 
 [4]. [Online]. Available: https://www.climatewatchdata.org/ 
+
+## Contributors
+Mengting Yan (tingmengyan@gmail.com)
+Yang Liu (lyt7206@126.com)
